@@ -65,6 +65,7 @@
                         <div class="determinate" style="width: ${wordCount/2000 * 100}%"></div>
                     </div>
                     <a href="<spring:url value='/content/word/list' />"><fmt:message key="view.list" /> (${wordCount})</a>
+                    <a href="<spring:url value='/content/word/peer-reviews' />"><fmt:message key="peer.review" /></a>
                 </div>
             </div>
         </div>
@@ -119,6 +120,7 @@
                         <div class="determinate" style="width: ${storyBookCount/104 * 100}%"></div>
                     </div>
                     <a href="<spring:url value='/content/storybook/list' />"><fmt:message key="view.list" /> (${storyBookCount})</a>
+                    <a href="<spring:url value='/content/storybook/peer-reviews' />"><fmt:message key="peer.review" /></a>
                 </div>
             </div>
         </div>
